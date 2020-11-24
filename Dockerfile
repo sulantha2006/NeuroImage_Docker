@@ -1,5 +1,5 @@
-FROM sulantha/ants:v2.3.4 AS ants_build
-FROM sulantha/c3d:1.0.0 AS c3d_build
+FROM sulantha/ants:latest AS ants_build
+FROM sulantha/c3d:latest AS c3d_build
 
 FROM python:buster as release
 USER root
